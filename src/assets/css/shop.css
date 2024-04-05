@@ -1,0 +1,97 @@
+.product-box{
+  height: 550px;
+}
+
+.wishlist-btn{
+    right: 0;
+}
+
+.product-img-box-light:hover{
+    border: 1px dashed black !important;
+}
+
+.product-img-box-dark:hover{
+    outline: 1px dashed white !important;
+}
+
+.product-img-box-light{
+    height: 400px;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.product-img-box-dark{
+    height: 400px;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.product-info-box{
+    height: 130px;
+}
+
+.product-logo{
+    margin-left: -12px;
+    margin-top: -5px;
+}
+
+.add-to-cart-btn-light{
+    border: 2px dashed black;
+    background-color: transparent;
+}
+
+.add-to-cart-btn-light:hover,
+.add-to-cart-btn-dark:hover{
+    border: 2px solid;
+    transition: 0.3s;
+   
+
+}
+
+.add-to-cart-btn-dark{
+    color: white;
+    border: 2px dashed white;
+    background-color: transparent;
+}
+
+
+.category-boxes{
+    cursor: pointer;
+}
+
+
+.SGStandard61SidewaysVibrola{
+    padding: 35px;
+}
+
+.LesPaul70sDeluxe{
+  
+}
+
+.ES-335Figured{
+
+
+}
+
+.SGSpecial{
+    
+}
+
+
+.product-rating-icon{
+    font-size: 25px;
+}
+@media (max-width: 425px){
+    .product-info-box{
+        height: 140px;
+    }
+
+    .product-box{
+        height: 600px;
+      }
+    
+    
+
+}

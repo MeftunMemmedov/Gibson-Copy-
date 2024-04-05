@@ -1,0 +1,9 @@
+.blog-box{
+    height: 300px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.blog-box:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,25 @@
+.login-page{
+    background-image: url('https://images.unsplash.com/photo-1528553744039-c1dcef33574f?q=80&w=1463&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    height: 120vh;
+}
+
+
+input{
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+input:focus{
+    outline: none !important;
+    border: 0 !important;
+  }
+
+.login-submit-btn{
+    height: 50px;
+}
+
+.login-submit-btn:hover{
+    background-color: black;
+}
+

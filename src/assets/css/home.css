@@ -1,0 +1,111 @@
+.btn-bg-color-1{
+    background-color: #84734d;
+}
+
+.home-box-1{
+    height: 86vh;
+    background-image: url("https://www.wallpaperflare.com/static/540/286/418/guitar-room-les-paul-sound-wallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-box-1-img{
+    object-fit: cover;
+}
+
+.home-box-1-overlay{
+    background: rgb(255,255,255);
+    background: linear-gradient(153deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 83%);
+}
+
+.home-overlay-header{
+    font-size: 50px;
+}
+
+.home-overlay-text{
+    font-size: 30px;
+}
+
+/* .home-box-2{
+    height: 350px;
+} */
+
+
+.home-box-3{
+    height: 100vh;
+    background-image: url('https://www.martinguitar.com/dw/image/v2/BGJT_PRD/on/demandware.static/-/Library-Sites-MartinSharedLibrary/default/dw199f4887/images/homepage/cfm-50.jpg?sw=1024&sfrm=jpg&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.product-box-home{
+    width: 400px;
+    height: 380px;
+}
+
+.product-box-home:hover .add-to-cart-box-home{
+    bottom: 0;
+}
+
+.product-box-home-1-1{
+    height: 75%;
+    border: 2px dashed black;
+    background-color: white;
+}
+
+.product-info-box-home-1{
+    height: 25%;
+}
+
+.add-to-cart-box-home{
+    bottom: -80px;
+    transition: 0.3s;
+}
+
+.add-to-cart-box-home button{
+    border: 1px dashed black;
+    background-color: black;
+    color: #84734d;
+    opacity: 0.8;
+}
+
+
+.add-to-wishlist-box-home{
+    top: 0;
+}
+
+@media (max-width:768px) {
+    .product-box-home{
+        width: 200px;
+        height: 250px;
+        
+    }
+}
+
+@media (max-width:425px){
+    /* .home-box-2{
+        height: 500px;
+    } */
+}
+
+
+
+@media (max-width:320px) {
+    .product-box-home{
+        width: 150px;
+        height: 300px;
+        
+    }
+
+    
+.product-box-home-1-1{
+    height: 70%;
+}
+
+.product-info-box-home-1{
+    height: 30%;
+}
+}
+
+

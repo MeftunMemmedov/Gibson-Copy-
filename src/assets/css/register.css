@@ -1,0 +1,41 @@
+.register-page{
+    height: 120vh;
+    background-image: url('https://static.gibson.com/gibson-web/shared/gibson-newsletter-lp-bg.jpg');
+    background-size: cover;
+}
+
+.register-box{
+    height: 450px;
+}
+
+.input-error{
+    border-bottom: 1px solid red !important;
+  }
+  
+  input:focus{
+    outline: none;
+    border: 0;
+  }
+
+input{
+    height: 50px;
+    outline: none;
+    border: 0;
+}
+
+button{
+    height: 50px;
+    transition: 0.4s;
+}
+
+.register-form-submit-btn:hover{
+    background-color: black !important;
+}
+
+
+
+@media(max-width:768px){
+    .register-page{
+        height: 130vh;
+    }
+}

@@ -1,0 +1,17 @@
+.product-details-box-1{
+    height: 90vh;
+}
+
+.product-details-box-1-1{
+    height: 95%;
+}
+
+.wishlist-btn{
+    right: 1px !important;
+}
+
+@media(max-width:768px){
+    .product-details-box-1{
+        height: 200vh;
+    }
+}

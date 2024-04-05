@@ -1,0 +1,13 @@
+.cart-is-empty{
+    height: 90vh;
+}
+
+.cart-box-2{
+    height: 150px;
+}
+
+@media (max-width:425px) {
+    .cart-box-2{
+        height: 350px;
+    }
+}
